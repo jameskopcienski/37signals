@@ -189,7 +189,7 @@ h3 span {
 }
 
 h3 sup {
-  font-weight: regular;
+  font-weight: normal;
   font-size: 11px;
   color: #999;
   vertical-align: super;
