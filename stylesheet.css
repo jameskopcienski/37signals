@@ -65,7 +65,7 @@ table {
   padding-left: 56px;
   font-family: 'Lucida Grande', Verdana, sans-serif;
   font-size: 12px;
-  color: #222;
+  color: #999;
   float: left;
 }
 
@@ -82,9 +82,21 @@ li {
   float: right;
 }
 
-.navlink {  
+#nav a {  
   text-decoration: none;
   padding-left: 20px;
+}
+
+#nav li:last-child a {
+  color: #69c;
+}
+
+#nav a:hover {
+  color: #69c;
+}
+
+#nav li:last-child a:hover {
+  color: #222;
 }
 
 .logo {
@@ -166,18 +178,20 @@ h2 {
 h3 {
   margin-top: 10px;
   font-family: 'Lucida Grande', Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  color: #369;
-  text-decoration: underline;
   text-align: center;
 }
 
 h3 span {
+  font-weight: bold;
+  font-size: 21px;
+  color: #369;
+  text-decoration: underline;
+}
+
+h3 sup {
   font-weight: regular;
   font-size: 11px;
   color: #999;
-  text-decoration: none;
   vertical-align: super;
 }
 
