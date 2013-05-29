@@ -135,6 +135,11 @@ h2 {
   font-size: 46px;
 }
 
+.h1small span {
+  color: #336699;
+  text-decoration: underline;
+}
+
 .h2small {
   font-family: 'Lucida Grande', Verdana, sans-serif;
   font-size: 15px;
@@ -152,7 +157,7 @@ h2 {
   margin-left: 552px;
 }
 
-#holdheadlines {
+#mainheadlines {
   display: none;
 }
 
