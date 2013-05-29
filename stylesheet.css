@@ -107,6 +107,7 @@ li {
 }
 
 #container {
+  position: relative;
   padding-top: 22px;
   margin: 0 auto;
   width: 830px;
@@ -130,6 +131,43 @@ h2 {
   color: #222;
 }
 
+.h1small {
+  font-size: 46px;
+}
+
+.h2small {
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.arrowleft {
+  margin-left: 248px;
+}
+
+.arrowcenter {
+  margin-left: 475px;
+}
+
+.arrowright {
+  margin-left: 552px;
+}
+
+#holdheadlines {
+  display: none;
+}
+
+#leftheadlines {
+  display: none;
+}
+
+#rightheadlines {
+  display: none;
+}
+
+#centerheadlines {
+  display: none;
+}
+
 .badgebox {
   height: 245px;
   width: 180px;
@@ -147,26 +185,30 @@ h2 {
 }
 
 #badgeleft {
+  position: absolute;
+  top: 210px;
   height: 245px;
   width: 180px;
-  margin-top: 30px;
   margin-left: 98px;
-  float: left;
+  z-index: -1;
 }
 
 #badgeright {
+  position: absolute;
+  top: 210px;
   height: 245px;
   width: 180px;
-  margin-top: 30px;
-  margin-right: 98px;
-  float: right;
+  margin-left: 552px;
+  z-index: -1;
 }
 
 #badgecenter {
+  position: absolute;
+  top: 210px;
   height: 245px;
   width: 180px;
-  margin: 0 auto;
-  margin-top: 30px;
+  margin-left: 325px;
+  z-index: -1;
 }
 
 .badgeimage {
